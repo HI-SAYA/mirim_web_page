@@ -50,12 +50,10 @@ const navGlobalFixed = () => {
   
     });
     
-    /**/
-    video.style.pointerEvents = "none";
+   
   
     const glitchWindow = document.querySelector(".glitch-window");
     const h1 = document.querySelector(".glitched");
     const h1Clone = h1.cloneNode(true);
-    glitchWindow.appendChild(h1Clone);
   
     
